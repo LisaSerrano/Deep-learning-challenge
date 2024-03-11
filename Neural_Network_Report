@@ -1,1 +1,29 @@
+Report for the Neural Network Model
 
+# Overview of the Analysis
+
+I created a deep learning model using a neural network for Alphabet Soup. The neaural network aims to predit which funding applicants are likely to be a success this is based on various features of the model.
+
+# Results:
+
+Target Variable: For the target variable for the model is "IS_SUCCESSFUL" column, this is the column that can indicate if the funding was sucessful (seen as (1) or not (seen as a (0).
+
+Features: The feautures for this model included calumns such as "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION"."USE_CASE","ORGANIZATION"."INCOME_AMT" and others except "EIN", "NAME"."IS_SUCCESSFUL".
+
+Variables to be Removed: The columns "Name" and "EIN" were the variables to be removed. These two columns were removed because its not relevant for the model prediction.
+
+# Neurons, Layers, and Activation Functions:
+
+For this challange the model consisted of various layers with changing numbers of activation functions and neurons.
+For the hidden layers in this challange, I chose a combination of dense layers with relu activation functions to introduce non-linearity and this inturn introduces non linearity and improve the model's ability to capture complex patterns.
+
+For the performance of the model, the training accuracy and testing accuracy both fell short of the 75% target for accuracy.
+
+# To Increace Model Performance:
+
+To increase this Model we can explore additional features to enhance the power of prediction of the model and get it over the 75% target accuracy.
+Other steps we can take to improve the fuctionality of the Model is, adjusting learning rates, batch size and epochs. Lastly, we can adjust amount of layers and neurons, this can beneficial because it allows us to experiment with different configurations that can help find the optimal balance between model complexity and performance.
+
+# Summary 
+
+In conclusion, the neural network showed promising results when predicting wether or not funding applications would be succssesful. With this said there are alot of areas for further improvemnt like achieving Target accuracy as discussed in above as to how to improve the model.
